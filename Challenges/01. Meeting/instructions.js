@@ -1,6 +1,8 @@
-//Source: https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/apB.md
-
-//scheduleMeeting(..) should take a start time (in 24-hour format as a string "hh:mm") and a meeting duration (number of minutes). It should return true if the meeting falls entirely within the work day (according to the times specified in dayStart and dayEnd); return false if the meeting violates the work day bounds.
+// Instructions
+// scheduleMeeting(..) should take a start time (in 24-hour format as a string "hh:mm") and a meeting duration (number of minutes).
+// It should return true if the meeting falls entirely within the work day (according to the times specified in dayStart and dayEnd)
+// It should return false if the meeting violates the work day bounds.
+// Source: https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/apB.md
 
 const dayStart = "07:30"
 const dayEnd = "17:45"
